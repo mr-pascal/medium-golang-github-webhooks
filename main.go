@@ -42,6 +42,7 @@ func main() {
 			log.Printf("User '%s' posted '%s'", userName, commentText)
 		}
 
+		// Always acknowledge the webhook
 		return c.SendStatus(200)
 	})
 
