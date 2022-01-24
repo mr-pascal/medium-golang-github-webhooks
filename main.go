@@ -1,7 +1,7 @@
 package main
 
 /**
-Import needed module
+Import needed modules
 */
 import (
 	"github.com/go-playground/webhooks/v6/github"
